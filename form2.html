@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="css_form2.css"/>
+</head>
+<body>
+    <h1>Contact Us Today!</h1>
+    <div class="div1" >
+     
+        
+        <table cellspacing="14px">
+            <tr>
+                <th><label><b>First Name :</b></label></th>
+                <td><input required  type="text" name="first name" placeholder="Enter your First Name "/></td>
+            </tr>
+            <tr>
+                <th><label><b>Last Name :</b></label></th>
+                <td><input type="text" name="last name" placeholder="Enter your Last Name "/></td>
+            </tr>
+            <tr>
+                <th><label><b>E-mail id :</b></label></th>
+                <td><input type="email" name="email" placeholder="Enter your email id "/></td>
+            </tr>
+            <tr>
+                <th><label><b>Phone number :</b></label></th>
+                <td><input type="text" name="number" placeholder="Enter your phone no "
+                    pattern="[0-9]{10}"/></td>
+            </tr>
+            <tr>
+                <th><label><b>Password :</b></label></th>
+                <td><input type="password" placeholder="Enter Password "/></td>
+            </tr>
+            <tr>
+                <th>Enter DOB:</th>
+                <td><input style="width: 250px;" type="date" placeholder="DOB:"></td>
+            </tr>
+           <tr>
+             <th>Gender:</th>
+             <td class="gender">
+                Male&#128104;<input type="radio" name="gender"> &emsp;
+                Felame &#128105;<input type="radio" name="gender">
+             </td>
+           </tr>
+
+
+        </table>
+        <div class="creat">
+            <button type="creat " class="button">Creat Account</button>
+        </div>
+
+        <div class="login_link">
+            <p>Click on This link if you have allready an Account </p>
+                <a class="login" href="login_html.html" target="_blank">Login</a>
+        </div>
+        
+       
+    </div>
+</body>
+</html>

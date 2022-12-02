@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Window</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .main_div{
+            width: 100%;
+            height: 100vh;
+            background-image: url(images/bg_image.jpg);
+             background-size: 100% 100vh;
+             background-repeat: no-repeat;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+            /* position: relative; */
+            
+
+            }
+
+            .login_form{
+                height: 500px;
+                width:400px;
+                /* background-color: red; */
+                background:url(images/bg2_image.webp);
+                background-size: cover;
+                padding:60px 10px;
+                box-shadow: 1px 1px 4px black;
+                border-radius: 10px;
+                
+            }
+            input{
+                width: 100%;
+                margin-top: 4px;
+                padding: 10px;
+                /* border: none; */
+            }
+
+            input:focus{
+                outline-color: gray;
+            }
+
+            label{
+                margin-top: 14px;
+                font-size:x-large;
+                font-weight: 700;
+                color:#D7DBDD;
+                color: #ECF0F1;
+                
+            }
+
+            label[for="password"]{
+                margin-top: 24px;
+            }
+            button{
+                 margin-top: 50px;
+                width: 100%;
+                height: 40px;
+                border: none;
+                background-color: #5D6D7E ;
+                background-color: #2E4053;
+                font-size: large;
+                font-weight: 500;
+                color: white;
+
+            }
+            button:hover{
+                background-color:#27AE60;
+                color:white;
+                box-shadow: 1px 1px 2px black;
+            }
+
+            p,h5{
+                text-align: center;
+                /* background-color: red; */
+                margin-top: 20px;
+            }
+            p{
+                margin-top: 30px;
+                color: white;
+            }
+            h5 a{
+                text-decoration: none;
+                color: #D35400;
+            }
+            h5{
+                margin-top: -10px;
+            }
+            h5 a:hover{
+                color:#E74C3C;
+                text-decoration:underline;
+            }
+
+
+
+         
+
+    </style>
+
+
+</head>
+<body>
+    <div class="main_div">
+     
+        <div class="login_form">
+            <label for="user_name">Username:</label>
+            <input type="text" placeholder="Enter username" required>
+            
+            <label for="password" >password:</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <button type="submit">Click To Continue</button>
+
+            <p>Don't have any accoutn?  </p>
+            <h5><a href="form2.html">Sing up now</a></h5>
+        </div>
+       
+        
+
+
+    </div>
+    
+</body>
+</html>
